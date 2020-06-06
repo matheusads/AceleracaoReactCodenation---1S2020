@@ -1,11 +1,17 @@
 # Mobile First: Instagram
-  
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/823b1329-cb59-428c-9567-63b5dcb4813a/deploy-status)](https://app.netlify.com/sites/ig-react12/deploys)
+
 ## Objetivo:
 Desenvolver uma versão **mobile first** do Instagram utilizando apenas **HTML5** e **CSS3**.
 
 **Preview:**
 
 [Instagram Codenation](https://vimeo.com/414861479/c258b4b6f9)
+
+## Resultado do projeto em produção
+
+[Instagram Estático](https://ig-react12.netlify.app/)
 
 ## Tópicos:
 
