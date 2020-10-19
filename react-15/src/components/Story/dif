@@ -1,0 +1,58 @@
+13,14c13,14
+<       if (metadata?.duration !== null && currentTime !== null) {
+<         const elapsedTime = ((currentTime / metadata.duration) * 100);
+---
+>     if (metadata?.duration !== null  && currentTime !== null) {
+>       const elapsedTime = ((currentTime / metadata.duration) * 100);
+16,19c16,20
+<         return `${elapsedTime.toFixed(2)}%`;
+<       }
+<       return '0%';
+<     }, [metadata, currentTime]);
+---
+>       return `${elapsedTime.toFixed(2)}%`;
+>     }
+> 
+>     return '0%';
+>   }, [metadata, currentTime]);
+27c28
+<               <img src={user.avatar} alt={user.name}/>
+---
+>               <img src={user.avatar} alt={user.name} />
+28a30
+> 
+32,33c34,38
+<           <button className="story__close" onClick={() => handleClose()}>
+<             <i className="fas fa-times"/>
+---
+>           <button
+>             className="story__close"
+>             onClick={() => handleClose()}
+>           >
+>             <i className="fas fa-times" />
+37,38c42,46
+<         <div className="story_progress">
+<           <div style={{ width: updateProgress() }} className="story__progress_elapsed"/>
+---
+>         <div className="story__progress">
+>           <div
+>             style={{ width: updateProgress()}}
+>             className="story__progress__elapsed"
+>           />
+44c52
+<           <section className="story__video_wrapper">
+---
+>           <section className="story__video__wrapper">
+56c64
+<                 })
+---
+>                 });
+59c67
+<               />
+---
+>             />
+67c75
+< export default Story;
+---
+> export default Story;
+\ No newline at end of file
